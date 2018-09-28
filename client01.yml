@@ -1,0 +1,12 @@
+sample:
+  value: Github
+
+management:
+  server:
+    port: 9000
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health
+  security:
+    enabled: false
